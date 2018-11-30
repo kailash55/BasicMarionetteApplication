@@ -1,0 +1,304 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color:#fefefe;
+}
+
+.loginbox {
+	border-width: 0px;
+    width:100%;
+    border: none;
+    border-radius: 0px;
+	padding:60px;
+	border:1px solid #ccc;
+}
+
+.center-div {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+	margin-bottom:25px;
+}
+
+.login-welcome {
+	font-size: 13px;
+    color: #000;
+	font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.user-name {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+    text-align: left;
+	border-radius:0px;
+	color: black;
+	padding: 1px 0px 1px 15px;
+}
+
+.login-btn2 {
+	border-width: 0px;
+    width: 110px;
+    height: 41px;
+    border: none;
+    border-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+	margin-right:0px;
+	margin-top:15px;
+	font-family: 'Roboto', sans-serif;
+	padding: 9px 12px;
+}
+
+.login-btn2:hover {
+	color:white;
+}
+
+.header {
+	background-color: rgba(93, 123, 157, 1);
+	height: auto;
+	width:100%;
+	border-width: 1px;
+    border-style: solid;
+    border-color: rgba(153, 153, 153, 1);
+    border-radius: 0px;
+	padding:13px;
+}
+
+.header img {height:50px;}
+
+.padding {
+	padding:0px;
+}
+
+.padding-left{
+	padding-left:0px;
+}
+
+
+.form-horizontal .control-label {
+	text-align:left;
+	font-size: 14px;
+	color: #333333;
+	font-weight: 400;
+	font-family:roboto;
+	padding-left:0px;
+}
+
+.form-input {
+	font-size: 13px;
+    text-decoration: none;
+    color: #333333;
+    text-align: left;
+    border-radius: 0px;
+    border: 1px solid gray;
+}
+.form-input:focus {
+	font-size: 13px;
+    text-decoration: none;
+    color: #333333;
+    text-align: left;
+    border-radius: 0px;
+    border: 1px solid gray;
+	box-shadow:none;
+}
+
+.add-more {
+	margin-right:15px;
+	border-radius:0px;
+}
+
+select {
+	padding:5px;
+	width:100%;
+}
+.table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border-bottom-width: 1px;
+}
+
+.click {
+	color:#5d7b9d;
+}
+
+.click:hover{
+	text-decoration:none;
+}
+
+.search {
+	display:inline-flex;
+}
+
+.search2 {
+	margin-left:15px;
+}
+
+.header-2 {
+	background-color: rgba(153, 153, 153, 1);
+    height: auto;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(153, 153, 153, 1);
+    border-radius: 0px;
+    padding: 5px 0px 5px 10px;
+}
+
+.header-2 p{
+	margin-bottom:0px;
+	font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.checkbox {
+	margin:0px;
+}
+
+.icon-logout {
+	font-size:20px;
+	position:relative;
+	top:3px;
+	cursor:pointer;
+}
+
+.logout p {
+	position: absolute;
+    right: 36px;
+    top: 29px;
+    color: white;
+	font-size:14px;
+}
+
+.catalogue .table-responsive {
+	overflow-x: hidden;
+    height: 230px;
+}
+
+.navbar {
+	border-radius:0px;
+}
+
+.navbar-collapse {
+	padding-left:0px;
+}
+
+.navbar-nav>li>a {
+	padding-top: 8px;
+    padding-bottom: 8px;
+	color:white !important;
+}
+
+.nav>li>a {
+	padding: 16px 26px;
+	font-size:16px;
+}
+
+.navbar {
+	min-height:40px;
+}
+
+.navbar-default {
+	background-color:#7498c1;
+	border: 0px;
+	margin-bottom:0px;
+}
+
+.footer{
+    background-color: #7498c1;
+    padding: 16px 0;
+    margin-top: 15px;
+    overflow: hidden;
+    width: 100%;
+    }
+
+.logo1 {
+	margin-left:25px;
+}
+
+.content {
+	padding:15px 25px;
+}
+
+.dashboard-right {
+	padding-top:21px;
+}
+
+.pad-bottom {
+	padding-bottom:15px;
+}
+
+.page-section {
+    display: none;
+}
+
+
+
+
+/*Media Query Start*/
+
+@media only screen and (max-width:1680px){
+	.loginbox {
+		padding:53px;
+		width:462px;
+	}
+}
+@media only screen and (max-width:1600px){
+	.loginbox {
+		padding:43px;
+		width:462px;
+	}
+	.logo {
+		margin-left:0px;
+	}
+}
+@media only screen and (max-width:1440px){
+	.loginbox {
+		padding:23px;
+		width:462px;
+	}
+	.logo {
+		margin-left:auto;
+	}
+}
+@media only screen and (max-width:1400px){
+	.loginbox {
+		padding:23px;
+		width:462px;
+	}
+	.logo {
+		margin-left:0px;
+	}
+}
+@media only screen and (max-width:800px){
+	.loginbox {
+		width:100%;
+	}
+}
+@media only screen and (max-width:800px){
+	.login-btn {
+		width:87px;
+	}
+	.login-btn2 {
+		width:87px;
+	}
+}

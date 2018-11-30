@@ -1,0 +1,8 @@
+<select>
+    <% _(options).each(function(option) { %>
+        <%= console.log(option) %>
+        <option value="<%= option.value %>">
+          <%= option.text %>
+        </option>
+      <% }) %>
+</select>
